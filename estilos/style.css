@@ -1,0 +1,117 @@
+@charset "UTf-8";
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;500;600;700&family=Montserrat:wght@100;300;400;500;600;700&family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600&display=swap');
+
+:root{
+    --fonte1: 'Zilla Slab', serif;
+    --fonte2: 'Montserrat', sans-serif;
+    --fonte3: 'Roboto', sans-serif;
+    --cor1: #181a1b;
+    --cor2: #2B2C33;
+    --cor3: #f12b39;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: var(--cor1);
+}
+header{
+    height: 100px;
+    font-family: var(--fonte2);
+    font-size: 30px;
+}
+header section{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+header section #github{
+    float:left;
+    color: white;
+    text-decoration: none;
+}
+header section #github:hover{
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+}
+header section #itemnav{
+    float: right;
+    font-size: 20px;
+}
+header section #itemnav a{
+    color:white;
+    text-decoration: none;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+header section #itemnav a:hover{
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+}
+main{
+    max-width: 900px;
+    margin: auto;
+}
+main #introducao{
+    margin-top: 80px;
+    margin-left: 20px;
+    color: white;
+}
+main #introducao h1{
+    font-family: var(--fonte1);
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+main #introducao p{
+    font-family: var(--fonte3);
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.692);
+}
+main .projan{
+    margin-left: 20px;
+    float: left;
+}
+main .projan img{
+    height: 200px;
+}
+main .projan p{
+    color: white;
+    font-family: var(--fonte3);
+    text-align: center;
+    padding-top: 20px;
+    /* margin-bottom: 100px; */
+}
+main .projan a{
+    text-decoration: none;
+}
+main .projan p:hover{
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+}
+main .prolog{
+    float: right;
+}
+main #outproj{
+    float: inline-start;
+    display: block;
+    margin-left:410px;
+    color: white;
+    font-family: var(--fonte3);
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+main #outproj a{
+    text-decoration: none;
+    color: var(--cor3);
+}
+main #outproj a:hover{
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+}
